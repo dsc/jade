@@ -74,10 +74,10 @@ fn(locals);
  - `compileDebug`  When `false` no debug instrumentation is compiled
 
 
-## Syntax
+## Syntax ##            {#syntax}
 
 
-### Markup
+### Markup              {#syntax-markup}
 
 Jade is a wonderfully pleasant way to generate HTML.
 
