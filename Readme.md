@@ -29,6 +29,7 @@ Jade is a high performance template engine heavily influenced by
   - no tag prefix
   - AST filters
   - filters
+    - `:stylus` must have [stylus](http://github.com/LearnBoost/stylus) installed
     - `:sass` must have [sass.js](http://github.com/visionmedia/sass.js) installed
     - `:less` must have [less.js](http://github.com/cloudhead/less.js) installed
     - `:markdown` must have [markdown-js](http://github.com/evilstreak/markdown-js) installed or [node-discount](http://github.com/visionmedia/node-discount)
@@ -193,7 +194,7 @@ label Username:
   input(name='user[name]')
 ````
 
-Tags that accept _only_ text such as `script`, `style`, and `textarea` do not
+Tags that accept _only_ text such as `script` and `style` do not
 need the leading `|` character, for example:
 
 ````jade
